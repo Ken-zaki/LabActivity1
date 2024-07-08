@@ -15,4 +15,8 @@ Example : 11 22 33 44 55
 
 and i want to put the value of 66 between in 22 and 33, to put it in there, just put the number 33 on the target value to put the new node.
 
+and the result will like this...
+
+Result : 11 22 66 33 44 55 
+
 Same process in delete node....
