@@ -107,7 +107,7 @@
         }
     };
     
-    void menu() {
+    int main() {
         link a;
         int choice;
         string value, target;
@@ -156,7 +156,7 @@
                     a.display();
                     break;
                 case 4:
-                    return;
+                    return 0;
                 default:
                     cout << "Invalid choice!" << endl;
                     break;
@@ -165,9 +165,6 @@
             system("pause");
             system("cls");
         }
-    }
-    
-    int main() {
-        menu();
         return 0;
     }
+    
